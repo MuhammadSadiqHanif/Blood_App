@@ -239,7 +239,7 @@ export default class DashboardList extends React.Component {
 
           this.setState({
             users: obj
-          })
+          },()=>{console.log(this.state.users)})
         }
 
 
